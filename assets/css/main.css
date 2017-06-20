@@ -284,7 +284,7 @@
 
 /* Form */
 
-	form {
+	/*form {
 		margin: 0 0 2.5rem 0;
 	}
 
@@ -394,7 +394,7 @@
 			background: rgba(255, 255, 255, 0.075);
 			border-color: #ffffff;
 			box-shadow: 0 0 0 1px #ffffff;
-		}
+		}*/
 
 	select option {
 		background: #1b1f22;
@@ -434,7 +434,7 @@
 			display: none;
 		}
 
-	input[type="text"],
+	/*input[type="text"],
 	input[type="password"],
 	input[type="email"],
 	select {
@@ -552,7 +552,7 @@
 	.formerize-placeholder {
 		color: rgba(255, 255, 255, 0.5) !important;
 		opacity: 1.0;
-	}
+	}*/
 
 /* Box */
 
@@ -1482,9 +1482,9 @@
 			-webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
 			-ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
-			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
+			/*padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
-			width: 40rem;
+			/*width: 40rem;*/
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
@@ -1541,11 +1541,11 @@
 
 		@media screen and (max-width: 736px) {
 
-			#main article {
+			#main #intro {
 				padding: 3.5rem 2rem 0.5rem 2rem ;
 			}
 
-				#main article .close:before {
+				#main #intro .close:before {
 					top: 0.875rem;
 					left: 0.875rem;
 					width: 2.25rem;
@@ -1557,12 +1557,16 @@
 
 		@media screen and (max-width: 480px) {
 
-			#main article {
+			#main #intro {
 				padding: 3rem 1.5rem 0.5rem 1.5rem ;
 			}
 
 		}
 
+		#main #intro{
+			width: 40rem;
+			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
+		}
 /* Footer */
 
 	#footer {
