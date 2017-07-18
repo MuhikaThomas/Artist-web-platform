@@ -1,0 +1,196 @@
+.eventwrapper{
+  margin-top: 5em;
+}
+.sectionwrapper{
+  position: relative;
+  -moz-flex-grow: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  -moz-flex-shrink: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  max-width: 100%;
+  z-index: 3;
+  background: blue;
+}
+.outereventsdiv{
+  margin-right: 1em;
+  margin-bottom: 1em;
+  width:25em;
+  height:30em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  /*background: #febf01; /* Old browsers */
+  /*background: -moz-linear-gradient(top, #ffff00 0%,#ffffff 100%); /* FF3.6-15 */
+  /*background: -webkit-linear-gradient(top, #ffff00 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  /*background: linear-gradient(to bottom, #ffff00 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /*padding-top: 2.5em;
+  padding-left: 2.5em;*/
+  overflow: hidden;
+  border-radius: 18px;
+  float: left;
+}
+.eventbrd{
+  position: sticky;
+  top: 2.5em;
+  left: 2.5em;
+  height: 5em;
+  width: 25em;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 18px;
+  border-top-color: #ffff00;
+  border-left-color: #ffff00;
+  border-right-color: #ffffff;
+  border-bottom-color: #ffffff;
+  background-color: transparent;
+}
+.event1{
+  background-image: url(../../images/fulls/event1.jpg);
+}
+.event2{
+  background-image: url(../../images/fulls/event2.jpg);
+}
+.event3{
+  background-image: url(../../images/fulls/event3.jpg);
+}
+.event4{
+  background-image: url(../../images/fulls/event4.jpg);
+}
+/*.eventswrapper{
+  margin-top: 5em;
+}
+
+
+.thumbnails {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-direction: row;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  margin: 0 0 2em -2em;
+}
+
+  .thumbnails a {
+    -moz-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    border-bottom: none;
+    display: block;
+    width: 100%;
+    margin: 0 0 2em 0;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 0.075);
+    cursor: pointer;
+    outline: 0;
+    overflow: hidden;
+  }
+
+    .thumbnails a img {
+      display: block;
+      width: 100%;
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+    }
+
+    .thumbnails a h3 {
+      margin: 1em;
+    }
+
+    .thumbnails a:hover {
+      background-color: rgba(255, 255, 255, 0.25);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 0.5em 0 #FF6382;
+    }
+
+  .thumbnails > div {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: calc(100% / 3);
+    padding-left: 2em;
+  }
+
+    .thumbnails > div > :last-child {
+      margin-bottom: 0;
+    }
+
+  @media screen and (max-width: 1280px) {
+
+    .thumbnails {
+      margin: 0 0 2em -1.5em;
+    }
+
+      .thumbnails a {
+        margin: 0 0 1.5em 0;
+      }
+
+      .thumbnails > div {
+        padding-left: 1.5em;
+      }
+
+  }
+
+  @media screen and (max-width: 980px) {
+
+    .thumbnails h3 {
+      font-size: 0.8em;
+    }
+
+  }
+
+  @media screen and (max-width: 480px) {
+
+    .thumbnails {
+      display: block;
+    }
+
+      .thumbnails a {
+        margin: 0 0 2em 0 !important;
+      }
+
+      .thumbnails > div {
+        display: block;
+        width: 100%;
+      }
+
+        .thumbnails > div:last-child > :last-child {
+          margin-bottom: 0 !important;
+        }
+
+      .thumbnails h3 {
+        font-size: 1em;
+      }
+
+  }*/
